@@ -1,0 +1,47 @@
+.paginado{
+  
+        display: flex;
+        justify-content: center;
+        margin-bottom:0.1em ;
+        margin-top: 5px;
+      
+ }  
+  
+ .number{
+    color: azure;
+    height: 30px;
+     border-radius: 5px;
+     box-shadow: 0 1rem 1rem rgba(244, 215, 241, 0.2);
+     cursor:grab;
+     width: 2.7rem;
+     background-color: transparent;
+     border: .1rem solid #912363ee;
+     margin: .3rem;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .number:hover{
+     background-color:rgba(224, 89, 156, 0.26) ;
+ }
+ .flechas-container-izquierda{
+        border-radius: 5px;
+        box-shadow: 0 1rem 1rem rgba(244, 215, 241, 0.2);
+        width: 20px;
+        height: 30px;
+        border: .1rem solid #f17fc2ee;
+        margin-left: 0.5px;
+        margin-bottom:60px ;
+        margin-top: 10px;
+        
+    
+ }
+ .flechas-container-derecha{
+    border-radius: 5px;
+    box-shadow: 0 1rem 1rem rgba(244, 215, 241, 0.201);
+    width: 20px;
+    height: 30px;
+    border: .1rem solid #f17fc2ee;
+    margin-left: 30px;
+    margin-bottom:30px ;
+    margin-top: 10px;
+ }
+

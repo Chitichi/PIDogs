@@ -1,0 +1,139 @@
+.dogsCards {
+     border: 3px solid rgb(207, 175, 198);
+    padding: 0.5em;
+    width: 98,5vw;             
+    background-color: rgba(20, 19, 19, 0.418);
+    font-weight: bold;
+    font-size: 10px;
+    opacity: 10;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items:center;
+
+}
+
+
+.tarjDogTodo{
+    
+    width: 200px;
+    display: flex;
+    opacity: 90%;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+   
+    
+} 
+.imgDog {
+        width: 200px;
+        max-height: 200px;
+        justify-content: center;
+        border-radius: 10px;
+        
+            
+    }
+ * {
+        padding: 0;
+        margin: 0;
+        text-decoration:none;
+        box-sizing:border-box;
+        border: none;
+
+       
+    } 
+
+    .temps {
+        color:rgba(7, 7, 7, 0.959);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        font-size: 13px;
+        word-wrap: break-word;
+     
+       }
+    .fondoTitulo{
+    
+        color: rgba(206, 146, 188, 0.856);
+        padding-top: 10px;
+        padding-bottom: 5px;
+        background-color: rgba(206, 146, 188, 0.698);
+        border-radius: 10px;
+    }
+    
+    .titulo {
+        color:#0a090aee;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+    .tituloTemps {
+        text-align: center;
+        color:#131213ee;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+   
+     }
+      
+ .weight{
+
+    font-size: 13px;
+    text-align: center;
+    color:rgba(7, 7, 7, 0.959);
+    word-wrap: break-word;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
+.tarjDog{
+   
+    border-radius: 10px;
+    box-shadow: 0 1rem 1rem rgba(244, 197, 228, 0.967);
+    margin: 0.5rem;
+    overflow:hidden;
+    width: 18rem;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(206, 146, 188, 0.411);
+    border: .1rem solid #dd429d57;
+    color:rgba(22, 218, 22, 0.959); 
+    justify-content: center;
+    
+    
+}   
+.article {
+
+    margin-block: 0px;
+    box-shadow: 0 1rem 1rem rgba(11, 0, 0, 0.493);
+    overflow:hidden;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(238, 105, 202, 0.168);
+    border: .1rem solid #f17fc195;
+    color:white;
+    padding: 20px;
+    width: 300px;
+    height: 190px;
+    font-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttonDetail {
+    letter-spacing: 3px;
+    color: azure;
+    height: 30px;
+     border-radius: 5px;
+     box-shadow: 0 1rem 1rem rgba(246, 241, 246, 0.412);
+     cursor:grab;
+     width: 5rem;
+     background-color: rgba(227, 127, 197, 0.459);
+     border: .1rem solid #912363ee;
+     margin: .3rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+    .buttonDetail:hover{
+        background-color:rgba(224, 89, 156, 0.26) ;
+    }
